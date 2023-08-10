@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Calculator</title>
+    <link rel="icon" href="calculator.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="index3.html"> Basic Calculator</a></li>
+        <li><a href="index3.html">Exchange Rate</a></li>
+        <li><a href="index2.html">Unit Converter</a></li>
+      </ul>
+    </div>
+
+    <div class="screen"></div>
+
+    <div class="icons">
+      <!-- <button class="history-icon">clock</button> -->
+      <i class="fa fa-history" aria-hidden="true"></i>
+      <!-- <button class="size-reducer-icon">size</button> -->
+      <i class="fa-solid fa-expand"></i>
+    </div>
+
+    <div class="tools"></div>
+
+    <div class="buttons">
+      <button  data-all-clear class="clear">C</button>
+      <button class="percentage">%</button>
+      <button data-delete class="delete">AC</button>
+      <!-- <input type="button"  value = "del" onclick="screen.value = screen.value.toString().slice(0,-1)"/> -->
+      <button data-operation class="div">/</button>
+
+      <button data-number class="clear">7</button>
+      <button data-number class="percentage">8</button>
+      <button data-number class="backspace">9</button>
+      <button data-operation class="multi">*</button>
+
+      <button data-number class="clear">4</button>
+      <button data-number class="percentage">5</button>
+      <button data-number class="backspace">6</button>
+      <button data-operation class="sub">-</button>
+
+      <button data-number class="clear">1</button>
+      <button data-number class="percentage">2</button>
+      <button data-number class="backspace">3</i></button>
+      <button data-operation class="add">+</button>
+
+      <button data-number class="clear">00</button>
+      <button data-number class="percentage">0</button>
+      <button class="backspace">.</button>
+      <button data-equals class="equal">=</button>
+    </div>
+    <footer>
+      Designed by
+      <a href="https://www.linkedin.com/in/mukesh-yadav12/" target="_blank"
+        >Mukesh Yadav</a
+      >
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

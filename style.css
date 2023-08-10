@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightblue;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+.nav-bar {
+    /* height: 50px;
+    width: 100%; */
+    background-color: rgb(196, 232, 244);
+    
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    
+}
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #022a39;
+    width: 100px;
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav-bar ul li a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+/* .nav-bar ul li a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .nav-bar ul li a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  } */
+
+.screen {
+    /* background-color: lightgrey; */
+    width: 232px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    font-size: 30px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.icons {
+    width: 232px;
+    height: 30px;
+    margin: 0 0 0 10px;
+    padding: 12px 12px;
+}
+
+.icons i {
+    
+    padding: 0 17px; 
+    
+}
+
+
+.view-buttons {
+    margin-top: 10px;
+    background-color: rgb(198, 214, 221);
+    padding: 12px 12px;
+}
+
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.buttons button {
+    width:40px;  
+    height:30px;  
+    border:none;  
+    border-radius:8px;  
+    margin:8px 8px;  
+    cursor:pointer;  
+    border-top:2px solid transparent;
+}
+
+footer {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    
+  }
+  footer a {
+    color: rgba(0, 0, 0, 0.903);
+    bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    font-size: 10px;
+    padding-right: 0.5px;
+    text-decoration: none;
+  }
+
+
